@@ -1,9 +1,12 @@
 import React from 'react'
+import { Herosection } from './home-comp/Herosection'
 
 export default function HomePage() {
   return (
-    <div>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam laudantium molestias hic cumque quia officia cum reprehenderit tenetur fugit. Rem, accusamus ducimus corrupti officiis magni aperiam assumenda necessitatibus blanditiis odio.
+    <div className='HomePage'>
+      <>
+      <Herosection/>
+      </>
     </div>
   )
 }
