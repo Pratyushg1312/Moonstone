@@ -12,7 +12,7 @@ import Preloader from './components/Preloader/Preloader';
 function App() {
   const [loading, setloading] = useState(false);
   useEffect(() => {
-    setTimeout(() => {setloading(true)}, 35000);
+    setTimeout(() => {setloading(true)}, 3500);
     // window.onload=()=>{
     //   setloading(true);
     //   }
