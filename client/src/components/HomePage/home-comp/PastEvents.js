@@ -1,6 +1,7 @@
 import React from 'react'
 import PastEventComponent from './PastEventComponent'
 import {Data} from './PreventComponentData';
+import './PastEvents.css'
 export default function PastEvents() {
     return (
         <>
