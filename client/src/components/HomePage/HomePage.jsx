@@ -1,9 +1,12 @@
 import React from 'react'
+import { Herosection } from './home-comp/Herosection'
 
 export default function HomePage() {
   return (
-    <div>
-      Homepage
+    <div className='HomePage'>
+      <>
+      <Herosection/>
+      </>
     </div>
   )
 }
