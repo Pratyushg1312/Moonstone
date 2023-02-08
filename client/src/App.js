@@ -22,8 +22,8 @@ function App() {
     <div>
       {loading?
       <div>
-
-        <div  className='bgmoon'></div>
+        <div className='bgmoon'>
+        </div>
       <Header/>
       <Routes>
           <Route exact path="/" element={<HomePage/>}/>
