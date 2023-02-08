@@ -15,16 +15,16 @@ export default function Header() {
               <a href="/">Home Page</a>
             </li>
             <li className="Nav-list">
-              <a href="#">Events</a>
+              <a href="/events">Events</a>
             </li>
             <li className="Nav-list">
-              <a href="#">About Us</a>
+              <a href="/aboutus">About Us</a>
             </li>
             <li className="Nav-list">
-              <a href="#">Our Team</a>
+              <a href="/ourteam">Our Team</a>
             </li>
             <li className="Nav-list">
-              <a href="#">Contact Us</a>
+              <a href="/contactus">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -41,19 +41,19 @@ export default function Header() {
             <Offcanvas.Body>
               <ul className="R_Navigation">
                 <li className="R_Nav-list">
-                  <a href="/">Home Page</a>
+                  <a href="/" onHide={handleClose}>Home Page</a>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="#">Events</a>
+                  <a href="/events" onHide={handleClose}>Events</a>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="#">About Us</a>
+                  <a href="/aboutus" onHide={handleClose}>About Us</a>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="#">Our Team</a>
+                  <a href="/ourteam" onHide={handleClose}>Our Team</a>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="#">Contact Us</a>
+                  <a href="/contactus" onHide={handleClose}>Contact Us</a>
                 </li>
               </ul>
             </Offcanvas.Body>

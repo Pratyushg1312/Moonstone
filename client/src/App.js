@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className='body'>
-      {loading ?
+      
         <div>
           <div className='bgmoon'>
             <svg className='newmoon' version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240 240" style={{ enableBackground: 'new 0 0 240 240' }} xmlSpace="preserve">
@@ -41,7 +41,7 @@ function App() {
           </Routes>
           <Footer />
         </div>
-        : <></>}
+        
     </div>
   );
 }
