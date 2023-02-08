@@ -12,7 +12,7 @@ import { Cursor } from './Cursor';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
 function App() {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
     setTimeout(() => { setloading(true) }, 3500);
     // window.onload=()=>{
