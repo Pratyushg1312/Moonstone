@@ -15,11 +15,13 @@ code {
 
 .bgmoon {
   margin: 40vh 45% 40vh 45%;
-  transform: translate(-15px, -15px);
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  box-shadow: 15px 15px 0 0 #eee9a3;
-  position:fixed;
+  background-color: #2e2a22;
+  box-shadow:
+  -0 0 2em #F5F4F6,
+  0 0 1.20em #F5F4F6;
+   position:fixed;
   z-index:-100;
 }
