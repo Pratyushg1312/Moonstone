@@ -21,7 +21,8 @@ function App() {
   return (
     <div>
       {loading?
-      <div>
+      <div className='bgmoon'>
+      
       <Header/>
       <Routes>
           <Route exact path="/" element={<HomePage/>}/>
@@ -32,6 +33,7 @@ function App() {
       </Routes>
       <Footer/>
       </div>
+
       :<Preloader/>}
     </div>
   );

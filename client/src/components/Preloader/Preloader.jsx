@@ -2,7 +2,7 @@ import React from 'react'
 import './preloader.css'
 export default function Preloader() {
   return (
-    <div>
+    <div className='preloader'>
 
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240 240" style={{enableBackground: 'new 0 0 240 240'}} xmlSpace="preserve">
         <style type="text/css" dangerouslySetInnerHTML={{__html: "\n\t.stmoon__light{fill:#B8B499;}\n\t.stmoon__dark{fill:#2D2B24;}\n\t.stmoon__halo{fill:none;stroke:#2D2B24;stroke-width:7;stroke-miterlimit:10;}\n" }} />
