@@ -10,7 +10,7 @@ import OurTeam from './components/OurTeam/OurTeam';
 import Preloader from './components/Preloader/Preloader';
 
 function App() {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
     setTimeout(() => {setloading(true)}, 35000);
     // window.onload=()=>{
