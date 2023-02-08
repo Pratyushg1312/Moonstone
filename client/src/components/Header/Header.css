@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+}
+.NavBar{
+    background: #232220;
+    background-image: url(https://vinhack.vinnovateit.com/texture.svg);
+    border-bottom: 1px solid #fedaae;
+}
+.Nav-list{
+    /* font-family: ; */
+    color: #fedaae;
+    margin: 15px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 17px;
+    /* width: 100px; */
+    text-align: center;
+}
+.R_Nav-list{
+    color: #fedaae;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px;
+}
+.Nav-list a, .R_Nav-list a{
+    text-decoration: none !important;
+    color: #fedaae;
+}
+.R_NavBar-nav{
+    display: none;
+}
+.Resp_canvas{
+    background: #232220 !important;
+    background-image: url(https://vinhack.vinnovateit.com/texture.svg) !important;
+}
+.Resp_title{
+    color: #fedaae;
+}
+.Burger{
+    padding: 10px;
+}
+.line{
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+    background-color: #fedaae;
+}
+@media screen and (max-width: 906px){
+    .R_NavBar-nav{
+        display: block;
+        /* flex-direction: column; */
+    }
+    .Navigation{
+        display: none;
+    }
+}
