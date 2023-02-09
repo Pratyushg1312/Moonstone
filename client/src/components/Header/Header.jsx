@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { NavLink } from 'react-router-dom';
 import "./Header.css"
 export default function Header() {
   const [show, setShow] = useState(false);
@@ -12,19 +13,19 @@ export default function Header() {
         <div className="NavBar-nav">
           <ul className="Navigation">
             <li className="Nav-list">
-              <a href="/">Home Page</a>
+              <NavLink to="/">Home Page</NavLink>
             </li>
             <li className="Nav-list">
-              <a href="/events">Events</a>
+              <NavLink to="/events">Events</NavLink>
             </li>
             <li className="Nav-list">
-              <a href="/aboutus">About Us</a>
+              <NavLink to="/aboutus">About Us</NavLink>
             </li>
             <li className="Nav-list">
-              <a href="/ourteam">Our Team</a>
+              <NavLink to="/ourteam">Our Team</NavLink>
             </li>
             <li className="Nav-list">
-              <a href="/contactus">Contact Us</a>
+              <NavLink to="/contactus">Contact Us</NavLink>
             </li>
           </ul>
         </div>
@@ -41,19 +42,19 @@ export default function Header() {
             <Offcanvas.Body>
               <ul className="R_Navigation">
                 <li className="R_Nav-list">
-                  <a href="/" onHide={handleClose}>Home Page</a>
+                  <NavLink to="/" onHide={handleClose}>Home Page</NavLink>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="/events" onHide={handleClose}>Events</a>
+                  <NavLink to="/events" onHide={handleClose}>Events</NavLink>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="/aboutus" onHide={handleClose}>About Us</a>
+                  <NavLink to="/aboutus" onHide={handleClose}>About Us</NavLink>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="/ourteam" onHide={handleClose}>Our Team</a>
+                  <NavLink to="/ourteam" onHide={handleClose}>Our Team</NavLink>
                 </li>
                 <li className="R_Nav-list">
-                  <a href="/contactus" onHide={handleClose}>Contact Us</a>
+                  <NavLink to="/contactus" onHide={handleClose}>Contact Us</NavLink>
                 </li>
               </ul>
             </Offcanvas.Body>
