@@ -3,7 +3,7 @@ import './PastEvents.css'
 export default function PastEventComponent(props) {
   return (
     <div>
-       <div className="img-box col-lg-4 col-8">
+       <div className="img-box">
           <img src="./images/temp.jpg" alt="image"  />
           <div className="transparent-box">
             <div className="caption">

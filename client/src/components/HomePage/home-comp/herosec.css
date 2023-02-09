@@ -1,0 +1,41 @@
+.Herosection{
+    
+    width:100vw;
+    height:40%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.moonimg{
+    height: 40vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .moonimg {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.hscon{
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+  .hscon h1{
+    position: absolute;
+    color: #FFDBAF;
+    font-size:5vw;
+    text-shadow:-3px -13px 13px black;;
+  }

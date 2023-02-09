@@ -97,7 +97,7 @@ export const Cursor = () => {
       };
   return (
     <>
-    <div ref={dotOutline} className="cursor-dot"></div> 
+    <div ref={dotOutline} className="cursor-dot"></div>
     <div ref={dot} className="cursor-dot-outline"></div>
     </>
   )

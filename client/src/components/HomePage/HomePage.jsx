@@ -8,10 +8,10 @@ export default function HomePage() {
   return (
     <div className='HomePage container  '>
       <>
-      {/* <Herosection/> */}
+      <Herosection/>
       <PastEvents/>
       <UpcomingEvent/>
-      <Herosection/>
+      
       <Sponsors/>
       </>
     </div>
