@@ -6,6 +6,7 @@ export const Cursor = () => {
 
     const dot = useRef(null);
     const dotOutline = useRef(null);
+   
   
     const cursorVisible = useRef(true);
     const cursorEnlarged = useRef(false);
@@ -98,6 +99,7 @@ export const Cursor = () => {
   return (
     <>
     <div ref={dotOutline} className="cursor-dot"></div>
+    
     <div ref={dot} className="cursor-dot-outline"></div>
     </>
   )
