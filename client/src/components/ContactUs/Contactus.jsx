@@ -4,7 +4,7 @@ export default function Contactus() {
   return (
     <div>
       <div class="container">
-	<div class="row">
+	<div class="row" >
 			<h1>Contact us</h1>
 	</div>
 	<div class="row">
