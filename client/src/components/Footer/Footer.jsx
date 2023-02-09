@@ -6,7 +6,7 @@ export default function Footer() {
      <div className="footer-section">
         <div className="footer-container">
           <div className="footer-image footer-solo-section">
-            <img src="/images/Savor_Logo.png" alt=""/>
+            <img src="https://portal.medicaps.ac.in/accsoft2/images/medi_logo.jpeg" alt=""/>
           </div>
           <div className="footer-content-section footer-solo-section">
             <div className="content-section-heading">

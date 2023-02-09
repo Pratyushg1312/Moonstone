@@ -11,7 +11,7 @@ export default function PastEvents() {
                     <p style={{ textDecoration: "underline" }}>Glimpses of Our Events</p>
                 </div>
                 <div className='row'>
-                    <div class="gallery-image ">
+                    <div className="gallery-image ">
                         {Data.map((elem)=>{
 
                             return <PastEventComponent name={elem.name} desc={elem.desc} />
