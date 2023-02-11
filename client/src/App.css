@@ -1,6 +1,7 @@
 .body{
   background-color: #232220;
   background-image: url(https://vinhack.vinnovateit.com/texture.svg);
+   /* download this svg texture */
 }
 .App {
   cursor: none;
@@ -54,18 +55,20 @@
   transform: translate(-50%, -50%);
   border-radius: 50%;
   opacity: 1;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out;
 }
 
 .cursor-dot {
   width: 8px;
   height: 8px;
-  background-color: #FFDBAF;
+  background-color: #ffdbaf;
   
 }
 
 .cursor-dot-outline {
-  width: 30px;
-  height: 30px;
-  background-color: #ffdbaf;
+  width: 20px;
+  height: 20px;
+  background-color: #ffdbafdf;
+  background-image: url(./images/mooncurse.png);
+
 }
