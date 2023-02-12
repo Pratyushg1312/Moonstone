@@ -1,21 +1,64 @@
 .Herosection{
-    
-    width:100vw;
-    height:40%;
-    
-    
-    display: flex;
+  
+  width:100vw;
+  height:40%;
+  
+  
+  display: flex;
     justify-content: center;
     align-items: center;
     
-}
-.moonimg{
+    
+  }
+  .moonimg{
     height: 40vw;
+    
+  }
+  .mi1{
+    
+    animation-name: pop;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    
+  }
+  
+
+@keyframes pop{
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+.hscon h1{
+  position: absolute;
+  color: #FFDBAF;
+  font-size:5vw;
+  text-shadow:-3px -13px 13px black;
+  animation-name: pop1;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  
+}
+@keyframes pop1{
+  0%{
+        transform: scale(0);
+        
+  }
+  50%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
     .moonimg {
       animation: App-logo-spin infinite 20s linear;
+      
+
     }
   }
 
@@ -30,12 +73,7 @@
 .hscon{
     display: flex;
     justify-content: center;
-  
+    
     align-items: center;
-}
-  .hscon h1{
-    position: absolute;
-    color: #FFDBAF;
-    font-size:5vw;
-    text-shadow:-3px -13px 13px black;;
   }
+  

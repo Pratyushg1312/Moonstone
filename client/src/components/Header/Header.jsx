@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { NavLink } from 'react-router-dom';
 import "./Header.css"
@@ -7,11 +7,26 @@ export default function Header() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+   
+   useEffect(() => {
+    const handleScroll = () => {
+      // console.log(window.pageYOffset);
+      if(window.pageYOffset>100){
+        // console.log("in");  
+        document.getElementById("nav123").style.backgroundColor="#232220";
+      }   
+      else{
+        document.getElementById("nav123").style.backgroundColor='';
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    }, [])
 
   return (
-    <div className="NavBar">
-        <div className="NavBar-nav">
-          <ul className="Navigation">
+    <div  className='fixnav'>
+    <div  className="NavBar">
+        <div  className="NavBar-nav">
+          <ul id="nav123" className="Navigation">
             <li className="Nav-list">
               <NavLink to="/">Home Page</NavLink>
             </li>
@@ -60,6 +75,7 @@ export default function Header() {
             </Offcanvas.Body>
           </Offcanvas>
         </div>
+      </div>
       </div>
   )
 }
