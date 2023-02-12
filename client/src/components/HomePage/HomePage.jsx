@@ -11,7 +11,6 @@ export default function HomePage() {
       <Herosection/>
       <PastEvents/>
       <UpcomingEvent/>
-      
       <Sponsors/>
       </>
     </div>
