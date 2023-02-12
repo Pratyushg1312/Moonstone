@@ -2,10 +2,11 @@ import {useRef,useEffect} from 'react'
 import './App.css'
 
 export const Cursor = () => {
-    const delay = 3;
+    const delay = 2;
 
     const dot = useRef(null);
     const dotOutline = useRef(null);
+   
   
     const cursorVisible = useRef(true);
     const cursorEnlarged = useRef(false);
@@ -97,7 +98,8 @@ export const Cursor = () => {
       };
   return (
     <>
-    <div ref={dotOutline} className="cursor-dot"></div> 
+    <div ref={dotOutline} className="cursor-dot"></div>
+    
     <div ref={dot} className="cursor-dot-outline"></div>
     </>
   )

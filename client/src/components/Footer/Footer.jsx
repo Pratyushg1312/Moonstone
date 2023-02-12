@@ -6,7 +6,7 @@ export default function Footer() {
      <div className="footer-section">
         <div className="footer-container">
           <div className="footer-image footer-solo-section">
-            <img src="/images/Savor_Logo.png" alt=""/>
+            <img src="./images/medicaps.png" alt="" width={"220px"}/>
           </div>
           <div className="footer-content-section footer-solo-section">
             <div className="content-section-heading">
@@ -19,14 +19,6 @@ export default function Footer() {
                 <li><a href='/contactus'>Contact Us</a></li>
               </ul>
             </div>
-          </div>
-          <div className="footer-help-section footer-solo-section">
-            <h6>Help</h6>
-            <ul>
-              <li>Shipping Information (FAQs)</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy Policy</li>
-            </ul>
           </div>
           <div className="footer-contact-section footer-solo-section">
             <h6>Have Questions?</h6>
@@ -42,6 +34,10 @@ A.B. Road, Pigdamber, Rau Indore - 453331
               <i className="fa-solid fa-envelope"></i> info@medicaps.ac.in
             </div>
           </div>
+          <div className="footer-help-section footer-solo-section">
+          <img src="./images/25year.png" alt="" width={"240px"}/>
+          </div>
+
         </div>
       </div> 
     </div>

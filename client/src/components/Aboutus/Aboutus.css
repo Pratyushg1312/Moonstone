@@ -1,0 +1,38 @@
+.aboutus-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    align-items: center;
+}
+.aboutus-content{
+    margin: 40px 0;
+}
+.aboutus-container{
+    margin: 20px 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+.aboutus-main-img{
+    padding: 0 20px;
+}
+.aboutus-container h1{
+    width: 100%;
+    text-align: center;
+    color: #fedaae;
+    /* border: 2px solid white; */
+}
+.aboutus-content{
+    width: 90%;
+    display: flex;
+}
+.aboutus-side-description{
+    padding: 0 20px;
+    font-size: 125%;
+}
+.aboutus-side-description p{
+    color: #fedaae;
+}

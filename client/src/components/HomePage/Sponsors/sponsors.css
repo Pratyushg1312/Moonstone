@@ -1,7 +1,9 @@
-/* .sponsorimg{
-    width: 150px;
+.sponsorimg{
+    width: 200px;
     height: 150px;
     margin-top: 4px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 8px;
-} */
+    margin-bottom: 25px;
+}
