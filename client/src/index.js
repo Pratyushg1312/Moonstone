@@ -10,9 +10,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
 <div id='stars'></div>
+<App />
 <div id='stars2'></div>
 <div id='stars3'></div>
-    <App />
     </BrowserRouter>
   </React.StrictMode>
 );
