@@ -1,7 +1,6 @@
 .body{
-  background-color: #232220;
-  background-image: url(https://vinhack.vinnovateit.com/texture.svg);
-   /* download this svg texture */
+  background-color: black;
+  /* background-image: url(https://vinhack.vinnovateit.com/texture.svg); */
 }
 .App {
   cursor: none;
@@ -22,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
