@@ -3,14 +3,14 @@ import './contactus.css'
 export default function Contactus() {
   return (
     <div>
-      <div class="container">
+      <div class="container ">
 	<div class="row" >
 			<h1>Contact us</h1>
 	</div>
 	<div class="row">
 			<h4 style={{textAlign:"center"}}>We'd love to hear from you!</h4>
 	</div>
-	<div class="row input-container">
+	<div class="row input-container ">
 			<div class="col-xs-12">
 				<div class="styled-input wide">
 					<input type="text" required />
